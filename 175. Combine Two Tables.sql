@@ -1,0 +1,1 @@
+Select P.FirstName, P.LastName, A.City, A.State from Person P LEFT JOIN  Address A on A.PersonId = P.PersonId;

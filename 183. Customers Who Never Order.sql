@@ -1,0 +1,1 @@
+Select Name as Customers from Customers where id not in (Select customerid from orders)
